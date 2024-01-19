@@ -18,8 +18,8 @@
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
-  justify-items: center;
-  align-items: baseline;
+  justify-items: center; 
+  align-items: baseline; /* Выравнивание текста кнопки и просто текста*/
 }
 
 .cover .cover__description {
@@ -56,7 +56,6 @@
   font-weight: 700;
   letter-spacing: 30px;
   text-transform: uppercase;
-  /*line-height: 115px; */
   color: white;
   margin: 50px 50px;
   z-index: 0;
@@ -78,6 +77,95 @@
   text-align: right;
 }
 
+ 
+.lots__card-list {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.lots__card-list-item {
+  flex-shrink: 0; 
+  box-sizing: border-box;
+  align-items: stretch;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 334px; /* Да, размеры карточки именно в card, а не list-item*/
+  height: 563px;
+  padding: 51px 40px 48px;
+}
+
+.lots__heading {
+  padding-left: 40px;
+  margin-bottom: 27px;
+  justify-content: center;
+}
+
+/*Пересмотреть, сделать универсальный класс, пока так*/
+
+.card_type_film {
+  background-image: url(/images/card-lot-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.card_type_book {
+  background-image: url(/images/card-lot-02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.card_type_picture {
+  background-image: url(/images/card-lot-03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+
+.section_header {
+  color: #000;
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.card__title {
+  color: #FFF;
+  font-family: 'Raleway';
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+.card__text {
+  color: #FFF;
+  font-family: 'Raleway';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 24px */
+}
+
+.lots__look-more-link {
+  display: inline-block;
+  margin-top: 30px;
+  padding-left: 64px;
+  text-decoration: underline;
+  text-transform: lowercase;
+}
 
 
 
