@@ -1,1 +1,33 @@
 /* место для вашего кода */
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer__menu-list {
+  list-style: none;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 48px;
+  list-style: none;
+
+}
+
+.footer__menu-list-item {
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.footer__social-icon {
+  max-width: 48px;
+}
