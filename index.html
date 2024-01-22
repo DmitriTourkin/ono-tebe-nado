@@ -11,18 +11,36 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__menu">
-        <div class="header__links-list">
-          <p></p>
+      <div class="header__menu" id="menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item header__links-list-item_no-bullit">
+            <a class="header__link header__link_active" href="#cover">Главная</a>
+          </li>
+          <li class="header__links-list-item header__links-list-item_after">
+            <a class="header__link" href="#lots">Посмотреть лоты</a>
+          </li>
+          <li class="header__links-list-item header__links-list-item_after">
+            <a class="header__link" href="#about">Об аукционе</a>
+          </li>
+        </ul>
+        <div class="header__logo">
+          <img class="header__logo-image" src="/images/logo-black.svg">
+        </div>
+        <div class="header__address">
+          <p class="header__address-text-block">
+            <address class="address_link_style"><a href="tel:+70000000">+9 999 555 5555</a></address>
+            <address class="address_link_style"><a href="mailto:@sobaka.ge">info@sobaka.ge</a></address>
+            наб. Принсенграхт 263-<br>265, Амстердам</span>
+          </p>
         </div>
       </div>
     </header>
     <main>
       <section class="cover overlay" id="#cover">
         <h1 class="cover__title">
-          <span class="accent-span align-text">Он<span class="align-text">о</span></span>
-          <span class="accent-span aligned-text_center">теб<span class="aligned-text_center">е</span></span>
-          <span class="accent-span aligned-text_right">н<span class="aligned-text_right">адо</span></span>
+          <span class="accent-span align-text">Он<span class="align-text one-letter-spacing-right">о</span></span>
+          <span class="accent-span aligned-text_center span-higher-2">теб<span class="aligned-text_center one-letter-spacing span-higher-2">е</span></span>
+          <span class="accent-span aligned-text_right span-higher ">н<span class="aligned-text_right span-higher word-spacing">адо</span></span>
         </h1>
         <div class="cover__description">
           <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
