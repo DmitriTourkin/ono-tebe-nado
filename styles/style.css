@@ -205,8 +205,7 @@
 .bet-button:hover {
   border-color: greenyellow;
   color: greenyellow;
-  transition: color 1ms;
-  transition: border-color 1ms;
+  transition: color 1ms border-color 1ms;
 }
 
 .lots {
