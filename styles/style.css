@@ -246,6 +246,7 @@
   width: 334px;
   min-height: 563px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card_type_film {
@@ -299,13 +300,11 @@
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
   background-position: center;
-  background-size: cover;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
   background-position: bottom;
-  background-size: cover;
 }
 
 .text-dots-spacing {
