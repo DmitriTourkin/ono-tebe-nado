@@ -301,8 +301,12 @@
 
 .about {
   display: grid;
+  grid-area: about;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 2fr 3fr;
+  grid-template-areas: 
+  "about__logo about__title"
+  "about__empty-block about__text-block";
   align-items: center;
   margin-bottom: 12.7%;
 }
@@ -335,6 +339,7 @@
 
 .about__text-block {
   display: flex;
+  grid-area: about__text-block;
   flex-direction: column;
   row-gap: 24px;
   align-self: self-start;
