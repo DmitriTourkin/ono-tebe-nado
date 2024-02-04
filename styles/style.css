@@ -32,7 +32,7 @@
 
 .header__links-list-item_no-bullit:hover {
   color: orange;
-  transition: color 0.3s;
+  transition: color .3s;
 }
 
 .header__link_active {
@@ -46,7 +46,7 @@
 
 .header__links-list-item_after:hover {
   color: orange;
-  transition: color 0.3s;
+  transition: color .3s;
 }
 
 .header__logo {
@@ -74,12 +74,12 @@
 .address_link_style {
   font-style: normal;
   text-decoration: none;
-  text-underline-offset: 0.22em;
+  text-underline-offset: .22em;
 }
 
 .link-hover:hover {
   color: orange;
-  transition: color 0.3s;
+  transition: color .3s;
 }
 
 .cover {
@@ -99,7 +99,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgb(0 0 0 / 0.6);
+  background-color: rgb(0 0 0 / .6);
 }
 
 .cover__title {
@@ -286,7 +286,7 @@
   font-style: normal;
   line-height: 117%;
   text-decoration-line: underline;
-  text-decoration-thickness: 0.9px;
+  text-decoration-thickness: .9px;
   text-underline-offset: 3px;
   text-transform: uppercase;
 }
@@ -384,8 +384,8 @@
   font-size: 20px;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0.01px;
-  word-spacing: 0.1px;
+  letter-spacing: .01px;
+  word-spacing: .1px;
 }
 
 .footer {
@@ -409,7 +409,7 @@
 
 .info {
   padding-top: 2px;
-  padding-left: 0.45%;
+  padding-left: .45%;
   line-height: 1.35;
 }
 
@@ -440,7 +440,7 @@
 
 .footer__menu-list-item:hover {
   color: orange;
-  transition: color 0.3s;
+  transition: color .3s;
 }
 
 .footer__social-icon {
